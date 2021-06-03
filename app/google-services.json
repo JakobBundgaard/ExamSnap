@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "497160588611",
+    "project_id": "fir-demo-b0c4c",
+    "storage_bucket": "fir-demo-b0c4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497160588611:android:ebd82c132c6cba6d08f3f6",
+        "android_client_info": {
+          "package_name": "bundgaard.maplocationdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497160588611-sk1uf4prpv1fhgnqph9vbp557uacdp5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeXDTaMEjsRQQmXewHCwgjMfpk6rsbKf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497160588611-sk1uf4prpv1fhgnqph9vbp557uacdp5o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "497160588611-nukjghdg5rukr08oj12vku6tqm1pgqpl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dk.jake.FirebaseDemo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497160588611:android:24b3a9b068d3fb0f08f3f6",
+        "android_client_info": {
+          "package_name": "com.bundgaard.examsnap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497160588611-sk1uf4prpv1fhgnqph9vbp557uacdp5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeXDTaMEjsRQQmXewHCwgjMfpk6rsbKf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497160588611-sk1uf4prpv1fhgnqph9vbp557uacdp5o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "497160588611-nukjghdg5rukr08oj12vku6tqm1pgqpl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dk.jake.FirebaseDemo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497160588611:android:ba086dc699b90c6c08f3f6",
+        "android_client_info": {
+          "package_name": "com.bundgaard.listviewdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497160588611-sk1uf4prpv1fhgnqph9vbp557uacdp5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeXDTaMEjsRQQmXewHCwgjMfpk6rsbKf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497160588611-sk1uf4prpv1fhgnqph9vbp557uacdp5o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "497160588611-nukjghdg5rukr08oj12vku6tqm1pgqpl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dk.jake.FirebaseDemo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
