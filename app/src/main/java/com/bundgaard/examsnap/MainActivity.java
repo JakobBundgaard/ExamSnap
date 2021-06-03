@@ -93,8 +93,6 @@ public class MainActivity extends AppCompatActivity implements Updatable, TaskLi
             assert data != null;
             Bundle extras = data.getExtras();
             imageBitmap = (Bitmap) extras.get("data");
-
-
         }
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -106,7 +104,11 @@ public class MainActivity extends AppCompatActivity implements Updatable, TaskLi
 
         builder.show();
     }
-
+/*
+buildEditText er hvor dialog boksen til at påføre tekst til billedet sker. Metodenbliver kaldt med
+med en alertBuilder som parameter. Der instantieres et editable textfield og layoutet defineres. Der bliver påført en title,
+ viewet bliver sat og returneret.
+ */
     @NotNull
     private EditText buildEditText(AlertDialog.Builder builder) {
         final EditText input = new EditText(MainActivity.this);
@@ -118,6 +120,12 @@ public class MainActivity extends AppCompatActivity implements Updatable, TaskLi
         builder.setView(input);
         return input;
     }
+/*
+I yesBtnClick bliver text og billede gemt når der clickes på yes. Her tages builderen og inputtet fra før som Parameter
+. Vi tilføjer en onClicklistener og bruger metoden drawTextToBitmap, som vi fik af dig i lektionen, ogtoString
+til at fange og gemme teksten fra input feltet sammen med billedet. Tilsidst kaldes updateTextAndImage, også fra dig,
+og så bruges Repo til at gemme i firestoe og firestorage
+ */
 
     private void yesBtnClick(AlertDialog.Builder builder, EditText input) {
         builder.setPositiveButton("Save", new DialogInterface.OnClickListener() {
